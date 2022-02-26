@@ -18,7 +18,7 @@ class myApp(App):
             background_color='#008EB0',
             background_normal='#008EB0',
             size_hint=(.5, .25),
-            pos=(200, 200)));
+            pos=(230, 250)));
         fl.add_widget(Button(
             text="Это другая кнопка",
             font_size=20,
@@ -26,7 +26,7 @@ class myApp(App):
             background_color='#FF3030',
             background_normal='',
             size_hint=(.5, .25),
-            pos=(100, 100)));
+            pos=(230, 300)));
         return s
     def btn_press(self, instance):        
         instance.text='Я нажата'
